@@ -1,0 +1,15 @@
+.NavMenu {
+    flex-shrink: 0;
+    display: inline-flex;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+}
+
+
+nav a {
+    padding-right: 2em;
+    padding-left: 2em;
+}
