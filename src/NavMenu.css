@@ -13,4 +13,13 @@ nav a {
     color: #282c34;
     padding-right: calc(5px + 2vmin);
     padding-left: calc(5px + 2vmin);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active-link {
+    text-decoration: underline;
 }

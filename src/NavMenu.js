@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import './NavMenu.css';
 
 class NavMenu extends Component {
@@ -7,9 +7,9 @@ class NavMenu extends Component {
         return (
         <div className="NavMenu">
             <nav>
-                <Link to='/Page1'>Page One</Link>
-                <Link to='/Page2'>Page Two</Link>
-                <Link to='/Page3'>Page Three</Link>
+                <NavLink exact activeClassName='active-link' to='/Page1'>Page One</NavLink>
+                <NavLink exact activeClassName='active-link' to='/Page2'>Page Two</NavLink>
+                <NavLink exact activeClassName='active-link' to='/Page3'>Page Three</NavLink>
             </nav>
         </div>
         )
