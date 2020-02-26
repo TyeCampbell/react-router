@@ -1,8 +1,7 @@
 .NavMenu {
     flex-shrink: 0;
-    display: inline-flex;
-    height: 5rem;
     display: flex;
+    height: 5rem;
     align-items: center;
     justify-content: center;
     font-size: 1.8em;
