@@ -1,0 +1,17 @@
+.page-box {
+    margin-top: -10vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 2rem;
+    width: 90vw;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page-box p {
+    padding: 0 2vw;
+}

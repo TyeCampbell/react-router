@@ -7,10 +7,10 @@ class Page1 extends Component {
     return (
       <div className="Page">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-          React Router pointing to <code>Page 1</code>.
-          </p>
+            <img src={logo} className="App-logo" alt="logo" />
+            <p>
+            React Router pointing to <code>Page 1</code>.
+            </p>
         </header>
       </div>
       );
