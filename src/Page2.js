@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 import logo from './logo.svg';
-import './App.css';
 import './Page.css';
 
 class Page2 extends Component {
@@ -12,6 +12,7 @@ class Page2 extends Component {
             <p>
               React Router pointing to <code>Page 2</code>.
             </p>
+            <Link to="/">Back to Page One</Link>
           </header>
         </div>
     )
