@@ -1,19 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './Page.css';
 
-function App() {
-  return (
-    <div className="Page">
-      <header className="App-header">
+class Page1 extends Component {
+  render() {
+    return (
+      <div className="Page">
+        <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          React Router pointing to <code>Page 1</code>.
+        React Router pointing to <code>Page 1</code>.
         </p>
-      </header>
-    </div>
-  );
+        </header>
+      </div>
+      );
+   }
 }
 
-export default App;
+export default Page1;

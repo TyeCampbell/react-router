@@ -10,6 +10,7 @@ class NavMenu extends Component {
                 <NavLink exact activeClassName='active-link' to='/Page1'>Page One</NavLink>
                 <NavLink exact activeClassName='active-link' to='/Page2'>Page Two</NavLink>
                 <NavLink exact activeClassName='active-link' to='/Page3'>Page Three</NavLink>
+                <NavLink exact activeClassName='active-link' to='/Page4'>Page Four</NavLink>
             </nav>
         </div>
         )
